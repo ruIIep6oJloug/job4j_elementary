@@ -15,10 +15,10 @@ public class Converter {
         int out = rubleToEuro(in);
         boolean passed = expected == out;
         System.out.println("140 rubles are 2. Test result : " + passed);
-        int in2 = 140;
-        int expected2 = 2;
-        int out2 = rubleToDollar(in2);
-        boolean passed2 = expected2 == out2;
-        System.out.println("140 rubles are 2. Test result : " + passed2);
+        int one = 140;
+        int two = 2;
+        int three = rubleToDollar(one);
+        boolean four = two == three;
+        System.out.println("140 rubles are 2. Test result : " + four);
     }
 }
