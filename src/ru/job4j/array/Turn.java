@@ -13,7 +13,6 @@ public class Turn {
                 break;
                 }
             }
-
         }
         return array;
     }
