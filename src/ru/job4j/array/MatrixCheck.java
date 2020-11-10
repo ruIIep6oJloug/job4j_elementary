@@ -11,4 +11,15 @@ public class MatrixCheck {
         }
             return result;
     }
+
+    public static boolean momoVertical(char[][] board, int column) {
+       boolean result = true;
+       for (int index = 0; index < board.length; index++) {
+           if (board[index][column] != 'x') {
+               result = false;
+               break;
+           }
+       }
+       return result;
+    }
 }
