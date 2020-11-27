@@ -6,18 +6,9 @@ import static org.junit.Assert.assertThat;
 
 public class FindLoopTest {
 
-    @Test
-    public void whenArrayHas5Then0() {
-        int input[] = {5, 4, 3, 2};
-        int value = 3;
-        int result = FindLoop.indexOf(input, value);
-        int expect = 2;
-        assertThat(result, is(expect));
-    }
-
-    @Test
+       @Test
     public void rangeTrue() {
-        int input[] = {5, 4, 3, 2};
+        int[] input = {5, 4, 3, 2};
         int value = 3;
         int start = 1;
         int finish = 3;
@@ -28,7 +19,7 @@ public class FindLoopTest {
 
     @Test
     public void rangeFalse() {
-        int input[] = {5, 4, 3, 2};
+        int[] input = {5, 4, 3, 2};
         int value = 6;
         int start = 1;
         int finish = 3;
